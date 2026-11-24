@@ -18,7 +18,7 @@ const copy = {
   es: {
     input: 'Texto original',
     inputHint: 'Pega un correo, contrato, informe o conversación. No sale de tu navegador.',
-    placeholder: 'Hola Marta,\nTe paso los datos de Javier Ruiz Moreno (DNI 12345678Z, tel. 612 345 678) para el contrato…',
+    placeholder: 'Hola Marta,\nTe paso los datos de Javier Ruiz Moreno (DNI 12345678Z, tel. 600 000 000) para el contrato…',
     tooLong: (max: number) => `Solo se analizan los primeros ${max.toLocaleString('es-ES')} caracteres.`,
     loading: 'Preparando la detección…',
     foundTitle: 'Datos encontrados',
@@ -57,7 +57,7 @@ const copy = {
   en: {
     input: 'Original text',
     inputHint: 'Paste an email, contract, report or conversation. It never leaves your browser.',
-    placeholder: 'Hi Marta,\nHere are the details of Javier Ruiz Moreno (DNI 12345678Z, phone 612 345 678) for the contract…',
+    placeholder: 'Hi Marta,\nHere are the details of Javier Ruiz Moreno (DNI 12345678Z, phone 600 000 000) for the contract…',
     tooLong: (max: number) => `Only the first ${max.toLocaleString('en-GB')} characters are analysed.`,
     loading: 'Getting detection ready…',
     foundTitle: 'Data found',
